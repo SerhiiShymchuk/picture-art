@@ -2,7 +2,7 @@ const forms = () => {
     const form = document.querySelectorAll('form')
     const inputs = document.querySelectorAll('input')
     let uploads = document.querySelectorAll('[name="upload"]')
-
+//
     const message = {
         success: 'Спасибо, мы с вами свяжемся!',
         loading: 'Загрузка',
