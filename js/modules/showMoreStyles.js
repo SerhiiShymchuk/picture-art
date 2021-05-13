@@ -14,7 +14,7 @@ const showMoreStyles = (trigger, styles) => {
             card.innerHTML = `
                 <div class=styles-block>
                     <img src=${obj.src}>
-                    <h4>${obj.tittle}</h4>
+                    <h4>${obj.title}</h4>
                     <a href=${obj.link}>Подробнее</a>
                 </div>
             `
