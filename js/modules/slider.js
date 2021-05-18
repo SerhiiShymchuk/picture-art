@@ -40,13 +40,13 @@ const slider = (sliedeSelectors, direction, prev, next) => {
             pause = setInterval(() => {
                 changeSlide(1)
                 slides[sliderIndex-1].classList.add('slideInDown')
-            }, 3000);
+            }, 10000);
         } else {
             pause = setInterval(() => {
                 changeSlide(1)
                 slides[sliderIndex-1].classList.remove('slideInleft')
                 slides[sliderIndex-1].classList.add('slideInRight')
-            }, 3000);
+            }, 10000);
         }
     }
 

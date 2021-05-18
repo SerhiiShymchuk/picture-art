@@ -10,6 +10,7 @@ import pictureSize from './modules/pictureSize.js'
 import accordion from './modules/accordion.js'
 import burger from './modules/burger.js'
 import scrolling from './modules/scrolling.js'
+import dragAndDrop from './modules/dragAndDrop.js'
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict'
@@ -28,4 +29,5 @@ window.addEventListener('DOMContentLoaded', () => {
     accordion('.accordion-heading', /*'.accordion-block'*/)
     burger('.burger-menu', '.burger')
     scrolling('.pageup')
+    dragAndDrop()
 })
